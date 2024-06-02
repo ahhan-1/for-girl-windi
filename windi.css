@@ -1,0 +1,222 @@
+body {
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("background.png");
+}
+
+.wrapper {
+  margin: 0px;
+}
+.nama {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: #ffffff71;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.384);
+  border-radius: 60px;
+  text-align: center;
+  font-weight: bolder;
+  color: #ff0b99;
+  width: 160px;
+  margin-left: 50px;
+  margin-top: 50px;
+  height: 25px;
+}
+.nama:hover {
+  background-color: #ff0b99;
+  text-replace: all ease 2s;
+  color: white;
+}
+.halaman1 {
+  display: flex;
+  justify-content: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.384);
+}
+.judul {
+  font-size: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-top: 120px;
+  color: #ff0b99;
+  font-weight: bold;
+}
+.tulisan {
+  text-align: justify;
+  margin-top: 20px;
+  margin-left: 425px;
+  font-size: 20px;
+  font-family: monospace;
+  color: #ff0b99;
+  width: 730px;
+}
+.cantik {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: #ffffff69;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.384);
+  border-radius: 60px;
+  text-align: center;
+  color: #ff0b99;
+  width: 300px;
+  margin-left: 560px;
+  margin-top: 200px;
+  height: 50px;
+}
+.cantik:hover {
+  background-color: #ff0b99;
+  color: white;
+}
+.fotohalaman {
+  margin-left: 170px;
+  margin-top: 30px;
+  border-radius: 100px;
+  background-position: center;
+  background-size: cover;
+  width: 1100px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.384);
+   gap: 20px;
+    box-sizing: border-box;
+    box-shadow: -11px 11px 34px 8px rgba(0, 0, 0, 0.418);
+-webkit-box-shadow: -11px 11px 34px 8px rgba(0, 0, 0, 0.349);
+-moz-box-shadow: -11px 11px 34px 8px rgba(0, 0, 0, 0.445);
+transition: all 0.2s ease-in-out;
+}
+.fotohalaman:hover{
+  scale: 1.10;
+    box-shadow: 0px 0px 27px 12px rgba(95,95,130,0.75);
+-webkit-box-shadow: 0px 0px 27px 12px rgba(95,95,130,0.75);
+-moz-box-shadow: 0px 0px 27px 12px rgba(95,95,130,0.75);
+}
+
+.sweet {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: #ffffff59;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.384);
+  border-radius: 60px;
+  text-align: center;
+  color: #ff0b99;
+  width: 400px;
+  margin-left: 520px;
+  margin-top: 170px;
+  height: 50px;
+}
+.sweet:hover {
+  background-color: #ff0b99;
+  color: white;
+}
+.tulisan1 {
+  font-family: monospace;
+}
+.satu {
+  margin-top: 40px;
+  margin-left: 150px;
+  background-color: rgba(255, 255, 255, 0.24);
+  width: 1100px;
+  border-radius: 40px;
+  font-size: 20px;
+  text-align: justify;
+  color: #ff0b99;
+  padding: 35px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.425);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.satu:hover {
+  background-color: #ff0b99;
+  color: white;
+}
+.duo {
+  margin-left: 150px;
+  background-color: rgba(255, 255, 255, 0.24);
+  width: 1100px;
+  border-radius: 40px;
+  font-size: 20px;
+  text-align: justify;
+  color: #ff0b99;
+  padding: 35px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.425);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.duo:hover {
+  background-color: #ff0b99;
+  color: white;
+}
+.hope {
+  justify-content: center;
+  display: flex;
+}
+.harapan1 {
+  margin-top: 20px;
+  font-family: monospace;
+  margin-left: 20px;
+  background-color: rgba(255, 255, 255, 0.24);
+  width: 500px;
+  border-radius: 40px;
+  font-size: 20px;
+  text-align: justify;
+  color: #ff0b99;
+  padding: 35px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.425);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.harapan1:hover {
+  background-color: #ff0b99;
+  color: white;
+}
+.harapan2 {
+  font-family: monospace;
+  margin-top: 20px;
+  margin-left: 10px;
+  background-color: rgba(255, 255, 255, 0.24);
+  width: 500px;
+  border-radius: 40px;
+  font-size: 20px;
+  text-align: justify;
+  color: #ff0b99;
+  padding: 35px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.425);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.harapan2:hover {
+  background-color: #ff0b99;
+  color: white;
+}
+.gambar {
+  margin-left: 625px;
+  margin-top: 200px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.527);
+  transition: all 0.2s ease-in-out;
+  gap: 20px;
+}
+.gambar:hover{
+  scale: 1.10;
+box-shadow: 0px 0px 27px 12px rgba(0, 0, 0, 0.308);
+-webkit-box-shadow: 0px 0px 27px 12px rgba(3, 3, 3, 0.411);
+-moz-box-shadow: 0px 0px 27px 12px rgba(0, 0, 0, 0.411);
+}
+.windikurnia{
+  margin-left: 19px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-top: 20px;
+  color: #ff0b99;
+  font-weight: bold;
+  text-align:center ;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.596);
+}
